@@ -11,20 +11,21 @@
 
 <body>
   <header role="banner" class="top-0">
-    <div class="w-full">
+    <div class="w-full absolute -z-10">
       <img src="./assets/images/background-pattern-mobile.svg" class="banner md:hidden" alt="banner-mobile">
       <img src="./assets/images/background-pattern-desktop.svg" class="hidden banner md:block" alt="banner-mobile">
     </div>
   </header>
 
   <main role="main" class="main-container">
-    FAQs
-
-    What is Frontend Mentor, and how will it help me?
-
-    Frontend Mentor offers realistic coding challenges to help developers improve their
-    frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for
-    all levels and ideal for portfolio building.
+    <div class="container mx-auto bg-white p-6 rounded-md">
+      <div class="flex items-center gap-5">
+        <img src="./assets/images/icon-star.svg" width="24px" alt="icon-star">
+        <h1 role="heading" aria-level="1">FAQs</h1>
+      </div>
+      <div id="list_faq">
+      </div>
+    </div>
   </main>
 
   <!-- FOOTER -->
